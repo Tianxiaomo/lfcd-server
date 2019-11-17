@@ -11,21 +11,10 @@
 '''
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
-from torch import optim
-from torch.utils.data import DataLoader,Dataset
 
-import adabound
-from torchsummary import summary
-import torchvision.models as models
-
-from sys import argv
 import numpy as np
-from tqdm import tqdm
-import matplotlib.pyplot as plt
-from imgaug import augmenters as iaa
 from easydict import EasyDict as edict
-import os, csv, glob, cv2, math, argparse, datetime,logging,sys,random,ast
+import os, csv, math, argparse, datetime,logging,sys,ast
 
 # 参数定义部分
 def get_config():
