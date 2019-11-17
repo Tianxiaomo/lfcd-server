@@ -491,7 +491,7 @@ def main():
             'Checkpoint `{}` not found'.format(args.checkpoint_path))
 
     application.debug = False  # change this to True if you want to debug
-    application.run('0.0.0.0', args.port)
+    application.run()
 
 if __name__ == '__main__':
     main()
