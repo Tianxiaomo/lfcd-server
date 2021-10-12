@@ -1,6 +1,6 @@
 gunicorn
 torch==0.4.1
-opencv_python_headless==4.1.1.26
+opencv_python_headless==4.2.0.32
 Flask
 easydict
 numpy==1.17.3
